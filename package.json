@@ -1,0 +1,21 @@
+{
+  "name": "api-completa-test",
+  "version": "1.0.0",
+  "description": "API (test) completa dev nodejs mongodb typescript prisma",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "tsc": "tsc"
+  },
+  "author": "Vinicius Pereira",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "fastify": "^4.27.0",
+    "tsx": "^4.15.4"
+  }
+}
